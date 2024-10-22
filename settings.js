@@ -11,26 +11,26 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "243891716833"
-global.ownername = "🌹MR KEVIN TSH🌹"
+global.ownernomer = "2250152857921"
+global.ownername = "⭐Mr Christian ICHORO 🌟"
 global.ytname = "YT: alvinblaste...13"
-global.socialm = "GitHub: Kevin-Tsh"
-global.location = "Cong Kinshasa, Haut Katanga, Lubumbashi"
+global.socialm = "GitHub: marcevans657"
+global.location = "Côte d'Ivoire, Abidjan , Cocody"
 
-global.ownernumber = '243891716833'  //creator number
-global.ownername = '🌹𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇🌹' //owner name
-global.botname = '🐲⸢𝐆𝐎𝐊𝐔-𝐌𝐃⸥🐲' //name of the bot
+global.ownernumber = '2250152857921'  //creator number
+global.ownername = 'Mr.Christian' //owner name
+global.botname = '✨⸢VEGETTA-𝐌𝐃⸥✨' //name of the bot
 
 //sticker details
-global.packname = '¹⁴³ ᴬˡᵉᵐᵃᵖ 🐲🌹'
-global.author = '𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇'
+global.packname = '¹⅝³ ᴬˡᵉᵐᵃᵖ ⭐⚡'
+global.author = '𝐌𝐑.Christian'
 
 //console view/theme
-global.themeemoji = '🌹'
-global.wm = "MR KEVIN TSH in©"
+global.themeemoji = '⚡'
+global.wm = "MR Christian ICHORO Rin©"
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029VajjpHoGZNCsyVLRRk1f'
+global.link = ''
 
 //custom prefix
 global.prefa = ['','!','.','#','&']
