@@ -1,11 +1,11 @@
 //base by Jean Parker 
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @Jean-Parker-tech
+//YouTube: @Nguessan-Christian-tech
 //Instagram: its_jeanparker
 //Telegram: t.me/Jeanparker100
 //GitHub: @Jeanparker100
 //WhatsApp: +22898133388
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@Jean-Parker-tech
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@Nguessan-Christian-tech
 
 const fs = require('fs')
 const chalk = require('chalk')
