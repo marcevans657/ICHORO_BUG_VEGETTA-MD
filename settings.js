@@ -1,10 +1,10 @@
-//base by Jean Parker 
+//base by marcevans657
 //re-upload? recode? copy code? give credit ya :)
 //YouTube: @Nguessan-Christian-tech
-//Instagram: its_jeanparker
-//Telegram: t.me/Jeanparker100
-//GitHub: @Jeanparker100
-//WhatsApp: +22898133388
+//Instagram: n'guessan Christian
+//Telegram: t.me/marcevans
+//GitHub: @marcevans657
+//WhatsApp: +2250152857921
 //want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@Nguessan-Christian-tech
 
 const fs = require('fs')
