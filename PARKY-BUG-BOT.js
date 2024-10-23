@@ -1,4 +1,4 @@
-//base by marcevans
+ //base by marcevans
 //re-upload? recode? copy code? give credit ya :)
 //YouTube: Nguessan-Christian-tech
 //Instagram: n'guessan Christian
@@ -1288,7 +1288,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'script':
             case 'scriptbot':
                 XeonBotInc.sendMessage(m.chat, {
-                    text: `🌐 *_Git:_* https://github.com/marcevans657/ICHORO_BUG_VEGETTA-MD\n\n🪀 *_Groupe:_* \n\n🪀 *_Channel:https://whatsapp.com/channel/0029VasWVAVBadmjMpW0O616\n\n✨ *_Dev:_* https://Wa.me/+2250152857921`,
+                    text: `🌐 *_Git:_* https://github.com/marcevans657/ICHORO_BUG_VEGETTA-MD\n\n🪀 *_Groupe:_* https://chat.whatsapp.com/IJ8RI2DTrQV0EBeDORNt9k\n\n🪀 *_Channel:https://whatsapp.com/channel/0029VasWVAVBadmjMpW0O616\n\n✨ *_Dev:_* https://Wa.me/+2250152857921`,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
@@ -1306,9 +1306,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 break
             case 'donate':
             case 'donasi':
-                let textnate = `*Bonjour ${pushname}*\n\n *RIEN DE EXTRAORDINAIRE ! PETIT OU GRAND C'EST L'ATTENTION QUI COMPTE*  \n *Flooz :* +243976995779`
+                let textnate = `*SALUT ${pushname}*\n\n *RIEN DE EXTRAORDINAIRE ! PETIT OU GRAND C'EST TA COMPÉTENCES QUI COMPTE*  \n *Flooz :* +2250152857921`
                 XeonBotInc.sendMessage(m.chat, {
-                    text: '*Un petit don de soutien pour moi Kevin Tsh*\n\n' + textnate
+                    text: '*Un Encouragements de soutien pour moi Christian ICHORO*\n\n' + textnate
                 }, {
                     quoted: m
                 })
@@ -1573,7 +1573,7 @@ break
                 if (args.length < 1) return replygcxeon(`Example:\n${prefix}fliptext Xeony`)
                 quere = args.join(" ")
                 flipe = quere.split('').reverse().join('')
-                replygcxeon(`\`\`\`🐲 FLIP TEXT 🐲\`\`\`\n*🐲> Normal :*\n${quere}\n*🐲> Flip :*\n${flipe}`)
+                replygcxeon(`\`\`\`✨ FLIP TEXT ⭐\`\`\`\n*🌟> Normal :*\n${quere}\n*⚡> Flip :*\n${flipe}`)
             }
             break
             case 'listvn': {
@@ -2080,11 +2080,11 @@ break
 //bug cases
 case "xmorsure-du-soleil": {
   if (!isPremium) return replygcxeon(mess.prem)
-  if (!text) return replygcxeon(`*utilisez ${prefix+command} + numéro de la victime + un délai*\n*Exemple ${prefix+command} 243xxxxxxxx,5*`) 
+  if (!text) return replygcxeon(`*utilisez ${prefix+command} + numéro de la victime + un délai*\n*Exemple ${prefix+command} 225xxxxxxxx,5*`) 
   let number = text.split(',')[0];
   let amount = text.split(',')[1] * 5;
   if (!number || !amount) {
-    return replygcxeon(`*Utilisez ${prefix+command} + Numéro de la victime + un délai*\n*Exemple ${prefix+command} 243xxxxxxxx,5*`) 
+    return replygcxeon(`*Utilisez ${prefix+command} + Numéro de la victime + un délai*\n*Exemple ${prefix+command}225xxxxxxxx,5*`) 
   }
   if (isNaN(parseInt(amount))) {
     return replygcxeon("Amount must be a number");
@@ -2105,18 +2105,18 @@ case "xmorsure-du-soleil": {
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
     "*LA MORSURE DU SOLEIL A ETE ENVOYÉ AVEC SUCCÈS ☀️🔥 A @" + whatsappNumber.split('@')[0] + 
-    " Atteint par " + command + "* \n\n*Faites une pause de 2 minutes pour que le bot ne soit pas banni.*\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ✓", 
+    " Atteint par " + command + "* \n\n*Faites une pause de 2 minutes pour que le bot ne soit pas banni.*\n\n> 𝐌𝐑.Christian ICHORO", 
     [whatsappNumber]
   );
 }
 break;
 case "xkaméhaméha": {
   if (!isPremium) return replygcxeon(mess.prem)
-  if (!text) return replygcxeon(`*Utilisez ${prefix+command} + numéro de la victime + un délai*\n*Exemple ${prefix+command} 243xxxxxxxx,5*`) 
+  if (!text) return replygcxeon(`*Utilisez ${prefix+command} + numéro de la victime + un délai*\n*Exemple ${prefix+command} 225xxxxxxxx,5*`) 
   let number = text.split(',')[0];
   let amount = text.split(',')[1] * 5;
   if (!number || !amount) {
-    return replygcxeon(`*Utilisez ${prefix+command} + numéro de la victime + un délai*\n*Exemple ${prefix+command} 243xxxxxxxx,5*`) 
+    return replygcxeon(`*Utilisez ${prefix+command} + numéro de la victime + un délai*\n*Exemple ${prefix+command} 225xxxxxxxx,5*`) 
   }
   if (isNaN(parseInt(amount))) {
     return replygcxeon("Amount must be a number");
@@ -2131,13 +2131,13 @@ case "xkaméhaméha": {
   if (contactInfo.length == 0) {
     return replygcxeon("The number is not registered on WhatsApp");
   }
-  replygcxeon("*VEUILLEZ PATIENTER, " + command + " LE KAMÉHAMÉHA 🌀🐲 EST EN COURS DE PROCESSUS...*");
+  replygcxeon("*VEUILLEZ PATIENTER, " + command + " L'OMBRE D'ÉNERGIE ✨⚡ EST EN COURS DE PROCESSUS...*");
   await sleep(2000); // Adjusted sleep time for clarity
   sendMultiplePaymentInvites(whatsappNumber, encodedAmount);
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
-    "*LE KAMÉHAMÉHA 🌀🐲 A ETE ENVOYÉ AVEC SUCCÈS A @" + whatsappNumber.split('@')[0] + 
-    " Atteint par " + command + "*\n\n*Faites une pause de 2 minutes pour que le bot ne soit pas banni.*\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ✓", 
+    "*L'OMBRE D'ÉNERGIE ✨⚡ A ETE ENVOYÉ AVEC SUCCÈS A @" + whatsappNumber.split('@')[0] + 
+    " Atteint par " + command + "*\n\n*Faites une pause de 2 minutes pour que le bot ne soit pas banni.*\n\n> 𝐌𝐑.Christian ICHORO", 
     [whatsappNumber]
   );
 }
@@ -2175,7 +2175,7 @@ case "xios2":
       return replygcxeon("*Amount must be a number*");
     }
     let encodedValue = encodeURI(text) * 200; // Adjusted calculation for clarity
-    replygcxeon("*VEUILLEZ PATIENTER, " + command + " One for all -United states of Smash 🤜🌬️ EST EN COURS DE PROCESSUS...*");
+    replygcxeon("*VEUILLEZ PATIENTER, " + command + " One for all -United states of Smash 🌝✨ EST EN COURS DE PROCESSUS...*");
     await sleep(1500); // Adjusted sleep time for clarity
     sendVariousMessages(from, encodedValue);
     await sleep(2500); // Adjusted sleep time for clarity
@@ -2188,7 +2188,7 @@ case "xios2":
     if (!text) {
       return replygcxeon("*COMMENT FAIRE POUR ENVOYER UN BUG SUR LE GROUPE*\n\n" + (prefix + command) + " https://chat.whatsapp.com/xxxx\n\n_*Note: If you want to send a large number of bugs, please type as follows*_\n\n*Ex: ." + command + " linkgc amount*\n\n*Example:*\n." + command + " *https://chat.whatsapp.com/xxxx 10*");
     }
-    replygcxeon("*VEUILLEZ PATIENTER, " + command + " L'ORBE D'ÉNERGIE ☄️🔥 EST EN COURS DE PROCESSUS...*");
+    replygcxeon("*VEUILLEZ PATIENTER, " + command + " TEMPÊTE D'ÉNERGIE ☄️🔥 EST EN COURS DE PROCESSUS...*");
     if (!text.split(" ")[0].includes("whatsapp.com")) {
       return replygcxeon("*Link Invalid!*");
     }
@@ -2199,7 +2199,7 @@ case "xios2":
       await sleep(2000); // Adjusted sleep time for clarity
       sendViewOnceMessages(groupTarget, bugAmount);
       await sleep(2500); // Adjusted sleep time for clarity
-      replygcxeon("*FAIT… L'ORBE D'ÉNERGIE ☄️🔥 A ÉTÉ ENVOYÉ DANS LE GROUPE AVEC SUCCÈS !\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ✓*");
+      replygcxeon("*FAIT… TEMPÊTE D'ÉNERGIE ☄️🔥 A ÉTÉ ENVOYÉ DANS LE GROUPE AVEC SUCCÈS !\n\n> 𝐌𝐑.Christian ICHORO*");
       XeonBotInc.groupLeave(groupTarget);
     } catch (error) {
       replygcxeon(util.format(error));
@@ -2208,11 +2208,11 @@ case "xios2":
   break;
   case "systemuicrash": {
   if (!isPremium) return replygcxeon(mess.prem)
-  if (!text) return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 243xxxxxxxx,5*`) 
+  if (!text) return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 225xxxxxxxx,5*`) 
   let number = text.split(',')[0];
   let amount = text.split(',')[1] * 5;
   if (!number || !amount) {
-    return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 243xxxxxxxx,5*`) 
+    return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 225xxxxxxxx,5*`) 
   }
   if (isNaN(parseInt(amount))) {
     return replygcxeon("*Amount must be a number*");
@@ -2233,18 +2233,18 @@ case "xios2":
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
     "*Bankai -Senbonzakura kageyoshi ⚔️ ENVOYÉ AVEC SUCCÈS À @" + whatsappNumber.split('@')[0] + 
-    " Using " + command + "* \n\n*Faites une pause de 2 minutes pour que le bot ne soit pas banni.*\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ✓", 
+    " Using " + command + "* \n\n*Faites une pause de 2 minutes pour que le bot ne soit pas banni.*\n\n> 𝐌𝐑.Christian ICHORO ", 
     [whatsappNumber]
   );
 }
 break;
 case "xsysui": {
   if (!isPremium) return replygcxeon(mess.prem)
-  if (!text) return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 243xxxxxxxx,5*`) 
+  if (!text) return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 225xxxxxxxx,5*`) 
   let number = text.split(',')[0];
   let amount = text.split(',')[1] * 5;
   if (!number || !amount) {
-    return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 243xxxxxxxx,5*`) 
+    return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 225xxxxxxxx,5*`) 
   }
   if (isNaN(parseInt(amount))) {
     return replygcxeon("*Amount must be a number*");
@@ -2279,12 +2279,12 @@ case 'clearchat':
 xeonimun('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
 break
 case 'Jeanparker':
-xeonimun('★彡[ᴄᴏᴇᴜʀ ꜱᴜʀ ᴛᴏɪ 🩵 ᴄʜᴇʀ \n ᴍᴇʀᴄɪ ᴅ,ᴜᴛɪʟɪꜱᴇʀ ᴍᴏɴ ʙᴜɢʙᴏᴛ  \n\n *ɴ,ᴏᴜʙʟɪᴇ ᴘᴀꜱ ᴅᴇ ᴛ,ᴀʙᴏɴɴᴇʀ À ᴍᴀ ᴄʜᴀÎɴᴇ ʏᴏᴜᴛᴜʙᴇ* \n _ʏᴏᴜᴛᴜʙᴇ ꜱᴇᴀʀᴄʜ ᴊᴇᴀɴ-ᴘᴀʀᴋᴇʀ-ᴛᴇᴄʜ ᴍᴇʀᴄɪ_ 🙏 😘]彡★')
+xeonimun('★彡[ᴄᴏᴇᴜʀ ꜱᴜʀ ᴛᴏɪ 🩵 ᴄʜᴇʀ \n ᴍᴇʀᴄɪ ᴅ,ᴜᴛɪʟɪꜱᴇʀ ᴍᴏɴ ʙᴜɢʙᴏᴛ  \n\n *ɴ,ᴏᴜʙʟɪᴇ ᴘᴀꜱ ᴅᴇ ᴛ,ᴀʙᴏɴɴᴇʀ À ᴍᴀ ᴄʜᴀÎɴᴇ ʏᴏᴜᴛᴜʙᴇ* \n _ʏᴏᴜᴛᴜʙᴇ ꜱᴇᴀʀᴄʜ Nguessan-Christian-ᴛᴇᴄʜ ᴍᴇʀᴄɪ_ 🙏 😘]彡★')
 break
             case 'menu':
             case 'help':
             case 'alive':
-            case 'Goku':
+            case 'vegetta':
             case 'allmenu':
                 let xeonmenuoh = `╔〘 ${botname} 〙╗
 ╔┅┅┅┅┅═══════┅┅┅┅𖣐
@@ -2292,15 +2292,14 @@ break
 ┃║ *Prefix* : [ ]
 ║║ *User* :  ${pushname}
 ┃║ *Temps* : ${xeonytimewisher}
-┃║ *Jour : Regarde ta montre*
+┃║ *Jour : Regarde ton horaire*
 ║║ *Date : le calendrier!*
 ┃║ *Version : 1.0*
 ║│ *Plugins : 250*
 ┃║ *Ram : 64 GB*
 ║║ *Alive* : ${runtime(process.uptime())}
 ┃╰┅┅┅┅┅┅┅┅┅┅┅┅┅☚
-╚┈➤✰𝙵𝙰𝙼𝙸𝙻𝙻𝙴 𝙶𝚁𝙸𝙼𝙼⭐
-
+╚┈➤✰FAMILLE ICHORO
     ╭══════════════𖣐
     ┊ ➥𝐴𝑁𝐷𝑅𝑂𝐼𝐷 𝐵𝑈𝐺✰
     ║
@@ -2312,13 +2311,13 @@ break
     ╭══════════════𖣐
     ┊ ➥𝐼𝑂𝑆 𝐵𝑈𝐺✰
     ║
-    ┊  ❐𝗫𝐾𝑎𝑚𝑒́ℎ𝑎𝑚𝑒́ℎ𝑎
+    ┊  ❐𝗫OMBRE-D'ÉNERGIE
     ║  ❐𝑋𝑖𝑜𝑠𝟮
     ╰┅┅┅┅┅┅┅┅┅┅☚
     ╭══════════════𖣐
     ┊ ➥𝐺𝑅𝑂𝑈𝑃𝐸 𝐵𝑈𝐺✰
     ║
-    ┊  ❐𝗫𝑂𝑟𝑏𝑒-𝑑'𝑒𝑛𝑒𝑟𝑔𝑖𝑒
+    ┊  ❐𝗫TEMPÊTE-𝑑'𝑒𝑛𝑒𝑟𝑔𝑖𝑒
     ╰┅┅┅┅┅┅┅┅┅┅☚
 ╭════════════════𖣐
 ┊ ➥𝑂𝑊𝑁𝐸𝑅 𝑀𝐸𝑁𝑈✰
@@ -2367,7 +2366,7 @@ break
    ┊ ➥𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨✰
    ║
    ┊   ❐𝗠𝗲𝗻𝘂
-   ║   ❐𝗚𝗼𝗸𝘂-𝗺𝗱
+   ║   ❐vegetta-𝗺𝗱
    ┊   ❐𝗥𝘂𝗻𝘁𝗶𝗺𝗲
    ║   ❐𝗦𝗰𝗿𝗶𝗽𝘁
    ┊   ❐𝗗𝗼𝗻𝗮𝘁𝗲
@@ -2423,8 +2422,8 @@ break
   ┊   ❐𝑌𝑇𝑀𝑃4
   ║   ❐𝑆𝑂𝑈𝑁𝐷1-𝑆𝑂𝑈𝑁𝐷161
   ╰┅┅┅┅┅┅┅┅┅┅┅┅☚
-  *☛Illustré  Par☚*
-> 🌹𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇🌹 ✓`
+  *☛Formaté  Par☚*
+> ⚡ Christian ICHORO `
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         text: xeonmenuoh,
