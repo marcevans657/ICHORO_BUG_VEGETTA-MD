@@ -1,11 +1,11 @@
-//base by Jean Parker 
+//base by marcevans
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @Jean-parker-tech
-//Instagram: its_jeanparker
-//Telegram: t.me/Jeanparker100
-//GitHub: @Jeanparker100
-//WhatsApp: +22898133388
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@Jean-parker-tech
+//YouTube: Nguessan-Christian-tech
+//Instagram: n'guessan Christian
+//Telegram: t.me/marcevans
+//GitHub: @marcevans657
+//WhatsApp: +2250152857921
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@Nguessan-Christian-tech
 
 const { default: makeWaSocket, useMultiFileAuthState, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@whiskeysockets/baileys')
 const os = require('os')
@@ -64,7 +64,7 @@ const ZipXeon = JSON.parse(fs.readFileSync('./database/autoreply/zip.json'))
 const ApkXeon = JSON.parse(fs.readFileSync('./database/autoreply/apk.json'))
 
 //time
-const xtime = moment.tz('Africa/Congo Kinshasa').format('HH:mm:ss')
+const xtime = moment.tz('Africa/Côte d'Ivoire Abidjan').format('HH:mm:ss')
         const xdate = moment.tz('Africa/Congo Kinshasa').format('DD/MM/YYYY')
         const time2 = moment().tz('Africa/Congo Kinshasa').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
