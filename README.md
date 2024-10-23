@@ -10,7 +10,7 @@
 </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-**Ce référentiel est repris depuis celui de `@marcevans657`**
+**Ce référentiel est repris depuis celui de mon premier compte `@marcevans657`**
 
 
 ##🤖Si la partie du déploiement devient difficile supp le zip et téléchargé un nouveau puis ressayer une dernière fois !!
