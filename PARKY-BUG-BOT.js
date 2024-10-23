@@ -744,13 +744,13 @@ senddocu(buffer)
                 break
             case 'shutdown':
                 if (!isCreator) return replygcxeon(mess.owner)
-                replygcxeon(`*Goodbye 👋🐲*`)
+                replygcxeon(`*Goodbye 👋✨*`)
                 await sleep(3000)
                 process.exit()
                 break
             case 'restart':
                 if (!isCreator) return replygcxeon(mess.owner)
-                replygcxeon('*Goku est en cours de processus...*')
+                replygcxeon('*VEGETTA est en cours de processus...*')
                 exec('pm2 restart all')
                 break
             case 'autoread':
@@ -889,7 +889,7 @@ senddocu(buffer)
             case 'leave':
                 if (!isCreator) return replygcxeon(mess.owner)
                 if (!m.isGroup) return replygcxeon(mess.group)
-                replygcxeon('*Bye Everyone 👋🐲*')
+                replygcxeon('*Bye Everyone 👋✨*')
                 await XeonBotInc.groupLeave(m.chat)
                 break
             case 'backup':
@@ -916,7 +916,7 @@ senddocu(buffer)
                 replygcxeon(`*Send Broadcast To ${anu.length} Group Chat, End Time ${anu.length * 1.5} second*`)
                 for (let i of anu) {
                     await sleep(1500)
-                    let a = '🐲' + `\n\n${text}\n\n` + '' + '\n\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇'
+                    let a = '✨' + `\n\n${text}\n\n` + '' + '\n\n\n> 𝐌𝐑.Christian'
                     XeonBotInc.sendMessage(i, {
                         text: a,
                         contextInfo: {
@@ -1097,11 +1097,11 @@ senddocu(buffer)
                 if (!m.isGroup) return replygcxeon(mess.group)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
-                let teks = `*👨‍👩‍👧‍👦🐲 Tag All*
+                let teks = `*✨⚡ Tag All*
  
-                 👻¸🗨️ *Message : ${q ? q : ''}*\n\n`
+                 🤖¸⭐ *Message : ${q ? q : ''}*\n\n`
                 for (let mem of participants) {
-                    teks += `🐲 @${mem.id.split('@')[0]}\n`
+                    teks += `✨ @${mem.id.split('@')[0]}\n`
                 }
                 XeonBotInc.sendMessage(m.chat, {
                     text: teks,
@@ -1137,9 +1137,9 @@ senddocu(buffer)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
                 if (args[0] === 'close') {
-                    await XeonBotInc.groupSettingUpdate(m.chat, 'announcement').then((res) => replygcxeon(`*Groupe fermé avec succès* ✅¸`)).catch((err) => replygcxeon(json(err)))
+                    await XeonBotInc.groupSettingUpdate(m.chat, 'announcement').then((res) => replygcxeon(`*Groupe fermé avec succès* ✨¸`)).catch((err) => replygcxeon(json(err)))
                 } else if (args[0] === 'open') {
-                    await XeonBotInc.groupSettingUpdate(m.chat, 'not_announcement').then((res) => replygcxeon(`*Groupe ouvert avec succès* ✅¸`)).catch((err) => replygcxeon(json(err)))
+                    await XeonBotInc.groupSettingUpdate(m.chat, 'not_announcement').then((res) => replygcxeon(`*Groupe ouvert avec succès* ⚡¸`)).catch((err) => replygcxeon(json(err)))
                 } else {
                     replygcxeon(`Mode ${command}\n\n\nType ${prefix + command}open/close`)
                 }
@@ -1164,7 +1164,7 @@ senddocu(buffer)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
                 let response = await XeonBotInc.groupInviteCode(m.chat)
-                XeonBotInc.sendText(m.chat, `🐲 *GROUP LINK INFO*\n🐲 *Name :* ${groupMetadata.subject}\n🐲 *Group Owner :* ${groupMetadata.owner !== undefined ? '@' + groupMetadata.owner.split`@`[0] : 'Not known'}\n🐲 *ID :* ${groupMetadata.id}\n🐲— *Chat Link :* https://chat.whatsapp.com/${response}\n🐲 *Member :* ${groupMetadata.participants.length}\n`, m, {
+                XeonBotInc.sendText(m.chat, `✨ *GROUP LINK INFO*\n⚡ *Name :* ${groupMetadata.subject}\n🌟 *Group Owner :* ${groupMetadata.owner !== undefined ? '@' + groupMetadata.owner.split`@`[0] : 'Not known'}\n⭐ *ID :* ${groupMetadata.id}\n✨— *Chat Link :* https://chat.whatsapp.com/${response}\n⚡ *Member :* ${groupMetadata.participants.length}\n`, m, {
                     detectLink: true
                 })
                 break
@@ -1214,7 +1214,7 @@ senddocu(buffer)
                 respon = `
 Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
-🐲 *GOKU* 🐲» Info Server
+⚡ *VEGETTA* ✨» Info Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
 _NodeJS Memory Usaage_
@@ -1243,10 +1243,10 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 })
             }
             break
-            case 'songoku':
-            case 'goku-md':
-            case 'goku': {
-                let teks = `*Hey ${pushname}* \n *Je m'appelle 🐲⸢𝐆𝐎𝐊𝐔-𝐌𝐃⸥🐲 !* \n *JE SUIS UN BOT WHATSAPPIEN MULTI APPAREILS.* \n *J'AI ÉTÉ CONFIGURÉ ET ILLUSTRÉ PAR* \n *🌹𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇🌹* \n> *Salut et à bientôt* `
+            case 'roi sayen vegetta':
+            case 'vegetta-md':
+            case 'vegetta': {
+                let teks = `*Hey ${pushname}* \n *Je m'appelle ✨⸢VEGETTA-𝐌𝐃⸥⚡ !* \n *JE SUIS UN BOT WHATSAPPIEN MULTI DEVICE.* \n *J'AI ÉTÉ AMÉLIORÉ ET FORMATÉ PAR* \n *✨𝐌𝐑.Christian⚡* \n> *Salutation et à plus* `
                 await XeonBotInc.sendMessage(m.chat, {
                     text: teks,
                     contextInfo: {
@@ -1272,8 +1272,8 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `Yt alvinblaste...13`,
-                            body: `Cool avec Kevin Tsh 🐲`,
+                            title: `Yt Nguessan-christian-tech`,
+                            body: `Cool avec Christian ICHORO`,
                             thumbnailUrl: 'https://telegra.ph/file/0f3a4498b60151e2248f5.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
@@ -1288,12 +1288,12 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'script':
             case 'scriptbot':
                 XeonBotInc.sendMessage(m.chat, {
-                    text: `🌐 *_Git:_* https://github.com/Kevin-Tsh/TSH_BUG_GOKU-MD\n\n🪀 *_Groupe:_* https://chat.whatsapp.com/IJPYf6Zu4DYH50WaxuQz6r\n\n🪀 *_Channel:_* https://whatsapp.com/channel/0029VajjpHoGZNCsyVLRRk1f\n\n🐲 *_Dev:_* https://Wa.me/+243976995779`,
+                    text: `🌐 *_Git:_* https://github.com/marcevans657/ICHORO_BUG_VEGETTA-MD\n\n🪀 *_Groupe:_* \n\n🪀 *_Channel:https://whatsapp.com/channel/0029VasWVAVBadmjMpW0O616\n\n✨ *_Dev:_* https://Wa.me/+2250152857921`,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `SCRIPT DE GOKU-MD EST SUR NOTRE CHAÎNE WHATSAPP 🐲`,
-                            body: `Merci de suivre la chaîne bro 🐲`,
+                            title: `DESCRI DE VEGETTA'-MD EST SUR NOTRE CHAÎNE WHATSAPP ⚡ ET TÉLÉGRAM`,
+                            body: `Merci de suivre la chaîne  ✨`,
                             thumbnailUrl: 'https://telegra.ph/file/e699cb075e1a4bda4f208.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
